@@ -1,10 +1,10 @@
 class _BotCommands:
     def __init__(self):
-        self.StartCommand = 'start'
-        self.ListCommand = 'list'
+        self.StartCommand = 's3'
+        self.ListCommand = 'searchall'
         self.AuthorizedUsersCommand = 'users'
         self.AuthorizeCommand = 'auth'
         self.UnAuthorizeCommand = 'unauth'
-        self.LogCommand = 'log'
+        self.LogCommand = 'logsearch '
 
 BotCommands = _BotCommands()

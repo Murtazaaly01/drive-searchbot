@@ -5,6 +5,6 @@ class _BotCommands:
         self.AuthorizedUsersCommand = 'users'
         self.AuthorizeCommand = 'auth'
         self.UnAuthorizeCommand = 'unauth'
-        self.LogCommand = 'logsearch '
+        self.LogCommand = 'logsearch'
 
 BotCommands = _BotCommands()

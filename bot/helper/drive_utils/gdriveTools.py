@@ -136,8 +136,7 @@ class GoogleDriveHelper:
         content_count = 0
         add_title_msg = True
         for INDEX, parent_id in enumerate(DRIVE_ID):
-            response = self.drive_query(parent_id, fileName)
-            if response:
+            if response := self.drive_query(parent_id, fileName):
                 if add_title_msg:
                     msg = f'<h3>Search Results for: {fileName}</h3><br>drive-searchbot<br><br>'
                     add_title_msg = False
